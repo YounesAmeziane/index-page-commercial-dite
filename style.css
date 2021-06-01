@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html{
+  display: flex;
+  background: #000;
+}
+:root{
+  --var-color-one: #ff9300;
+  --var-color-two: ;
+}
+.nav{
+  position: absolute;
+}
+nav{
+  height: 60px;
+  width: 100%;
+  color: #fff;
+  background: #000;
+  position: fixed;
+  opacity: 0.94;
+}
+nav p{
+  float: left;
+  margin: 0 0 0 60px;
+  color: #fff;
+  line-height: 60px;
+  text-transform: uppercase
+}
+nav ul{
+  margin: 0 60px;
+}
+nav ul li{
+  display: inline;
+  text-decoration: none;
+}
+nav ul li a{
+  color: #fff;
+  margin: 0 20px;
+  line-height: 50px;
+  float: right;
+}
+nav ul li a:hover,
+.active{
+  color: var(--var-color-one);
+  transition: 0.5s;
+  border-bottom: 1px solid var(--var-color-one);
+}
+a{
+  text-decoration: none;
+}
+.first-look{
+  margin: 60px 0;
+  height: 500px;
+  background-image: url(back.jpg);
+  background-size: cover;
+  padding: 70px 0 0 60px;
+}
+.first-look h1{
+  font-size: 50px;
+  margin: 0 0 3rem
+}
+.first-look p{
+  width: 45%;
+}
+.first-look p .l{
+  font-size: 30px;
+  margin: 0 2px 0 8px;
+}
+.first-look a{
+  margin: 0 10px ;
+  border-bottom : 4px solid var(--var-color-one);
+  border-radius: 5px;
+  color: #000;
+}
+
+//here is the products css
+
+.container-row h1{
+  color: #ff9300;
+  margin: 0 0 0 50px
+}
+.container{
+  background-color: #fff;
+}
+.container .container-row .slot{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 20px 0;
+}
+.container .container-row .slot .row{
+  width: 250px;
+  height: 330px;
+  background: #fff;
+  border: 3px solid var(--var-color-one);
+  margin: 0 30px;
+}
+.container .container-row .slot .row a{
+  color: #ccc;
+}
