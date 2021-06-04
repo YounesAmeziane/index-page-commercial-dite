@@ -1,2 +1,2 @@
-# index-page-commercial-dite
+# index-page-commercial-site
 pure html && css template
